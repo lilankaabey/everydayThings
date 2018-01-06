@@ -49,7 +49,7 @@ section::after {content: ''; display: block; clear: both; }
 
 /* Section - Main */
 
-select.main { margin-top: 20px; margin-bottom: 30px; padding: 0; }
+section.main { margin-top: 20px; margin-bottom: 30px; padding: 0; }
 section.main aside { width: 33%; float: left; text-align: center; }
 
 section.main .content { margin: 15px; background: no-repeat center top; background-size: 75px 75px; padding-top: 85px; }
@@ -60,3 +60,12 @@ section.main aside h3 a:hover { text-decoration: underline; }
 section.main aside .content.trending { background-image: url(../images/icon_star.svg); }
 section.main aside .content.find-it { background-image: url(../images/icon_marker.svg); }
 section.main aside .content.tools { background-image: url(../images/icon_gear.svg); }
+
+/* Section - Atmosphere */
+
+section.atmosphere { background-color: #cc6633; padding-top: 30px; padding-bottom: 30px; color: #fff; }
+
+section.atmosphere article { padding: 0 20px 0 515px; background:
+  url(../images/photo_lounge.jpg) no-repeat 0 5px;
+  min-height: 220px;
+ }
