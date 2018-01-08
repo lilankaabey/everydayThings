@@ -128,6 +128,14 @@ nav {
 
 nav::after { content: ''; display: block; clear: both; }
 
+nav a.mobile_menu {
+  width: 32px; height: 32px;
+  background: url(../images/icon_menu.svg) no-repeat 0 0;
+  background-size: contain;
+  position: absolute; top: 22px; left: 50%; margin-left: -16px;
+  display: none;
+}
+
 nav ul { list-style: none; margin: 0; padding: 0px; }
 
 nav ul li:hover { background-color: #2b0306; }
@@ -308,7 +316,7 @@ footer a:hover { color: #000; }
 
   /* Navigation */
   nav { padding: 50px 15px 20px 15px; background-color: #4b0a0c; }
-
+  nav a.mobile_menu { display: block; }
   nav ul,
   nav ul ul,
   nav ul ul ul { display: block; position: static; }
