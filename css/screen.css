@@ -262,7 +262,7 @@ footer a:hover { color: #000; }
   a.btn { font-size: .9em; }
 
   /* Header */
-  header { height: 160px; background-image: url(../images/banner_625.jpg); background-position: left top; }
+  header { height: auto; min-height: 160px; background-image: url(../images/banner_625.jpg); background-position: left top; }
   header a.logo {
       width: 100%; height: 66px;
       left: 0px; top: 0px;
@@ -355,7 +355,10 @@ footer a:hover { color: #000; }
 @media screen and (max-width: 425px) {
 
   /* Header */
-  header { height: 110px; background-image: url(../images/banner_425.jpg); }
+  header { min-height: 125px;
+    background-image: url(../images/banner_425.jpg);
+    background-position: left bottom;
+  }
 
   header a.logo {
     height: 36px;
